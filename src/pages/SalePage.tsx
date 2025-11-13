@@ -87,7 +87,7 @@ export default function SalePage() {
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="w-full pl-12 pr-12 py-4 rounded-lg text-white"
-              style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '2px solid #C0C0C0' }}
+              style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '2px solid #C0C0C0' }}
             />
             {searchTerm && (
               <button
@@ -103,7 +103,7 @@ export default function SalePage() {
 
       {/* Info Section */}
       <div className="mb-12 grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '1px solid #C0C0C0' }}>
+        <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '1px solid #C0C0C0' }}>
           <div className="flex items-center gap-3 mb-3">
             <Award size={24} className="text-white" />
             <h3 className="text-xl font-bold text-white">Linhagem Comprovada</h3>
@@ -112,7 +112,7 @@ export default function SalePage() {
             Todos os animais possuem pedigree documentado e histórico genético completo.
           </p>
         </div>
-        <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '1px solid #C0C0C0' }}>
+        <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '1px solid #C0C0C0' }}>
           <div className="flex items-center gap-3 mb-3">
             <FileText size={24} className="text-white" />
             <h3 className="text-xl font-bold text-white">Documentação Completa</h3>
@@ -121,7 +121,7 @@ export default function SalePage() {
             Certificados de saúde, vacinação e toda documentação necessária incluída.
           </p>
         </div>
-        <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '1px solid #C0C0C0' }}>
+        <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '1px solid #C0C0C0' }}>
           <div className="flex items-center gap-3 mb-3">
             <Phone size={24} className="text-white" />
             <h3 className="text-xl font-bold text-white">Suporte Total</h3>
@@ -162,7 +162,7 @@ export default function SalePage() {
             <div
               key={index}
               className="group rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
-              style={{ border: '2px solid #C0C0C0', background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)' }}
+              style={{ border: '2px solid #C0C0C0', background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)' }}
             >
               <div className="relative h-64 overflow-hidden">
                 <img
@@ -234,7 +234,7 @@ export default function SalePage() {
             <div
               key={horse.id}
               className="group rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
-              style={{ border: '2px solid #C0C0C0', background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)' }}
+              style={{ border: '2px solid #C0C0C0', background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)' }}
             >
               {horse.image_url ? (
                 <div className="relative h-64 overflow-hidden">
@@ -251,7 +251,7 @@ export default function SalePage() {
                   )}
                 </div>
               ) : (
-                <div className="h-64 flex items-center justify-center relative" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)' }}>
+                <div className="h-64 flex items-center justify-center relative" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)' }}>
                   <span className="text-white text-lg">Sem imagem</span>
                   {horse.price && (
                     <div className="absolute top-4 right-4 bg-white/90 text-black px-4 py-2 rounded-lg font-bold">
@@ -298,7 +298,7 @@ export default function SalePage() {
           ))}
         </div>
       ) : (
-        <div className="rounded-lg p-12 text-center" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '1px solid #C0C0C0' }}>
+        <div className="rounded-lg p-12 text-center" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '1px solid #C0C0C0' }}>
           <p className="text-white text-lg mb-4">
             {searchTerm 
               ? 'Nenhum animal encontrado com os critérios de busca.' 

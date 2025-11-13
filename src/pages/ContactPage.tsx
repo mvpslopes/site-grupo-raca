@@ -65,13 +65,13 @@ export default function ContactPage() {
 
       <div className="mb-12">
         <h2 className="text-2xl font-bold mb-6 text-white">Cadastro</h2>
-        <div className="rounded-lg p-8 max-w-2xl" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '2px solid #C0C0C0' }}>
+        <div className="rounded-lg p-8 max-w-2xl" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '2px solid #C0C0C0' }}>
           <p className="text-white mb-6">
             Cadastre-se para ficar por dentro do que há de melhor na raça
           </p>
 
           {submitSuccess && (
-            <div className="mb-6 text-white p-4 rounded-lg" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '1px solid #C0C0C0' }}>
+            <div className="mb-6 text-white p-4 rounded-lg" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '1px solid #C0C0C0' }}>
               Cadastro realizado com sucesso! Em breve você receberá nossas atualizações.
             </div>
           )}
@@ -87,7 +87,7 @@ export default function ContactPage() {
                 value={formData.name}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                 className="w-full px-4 py-2 text-white rounded-lg focus:outline-none"
-                  style={{ border: '2px solid #C0C0C0', background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)' }}
+                  style={{ border: '2px solid #C0C0C0', background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)' }}
               />
             </div>
             <div>
@@ -100,7 +100,7 @@ export default function ContactPage() {
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 className="w-full px-4 py-2 text-white rounded-lg focus:outline-none"
-                  style={{ border: '2px solid #C0C0C0', background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)' }}
+                  style={{ border: '2px solid #C0C0C0', background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)' }}
               />
             </div>
             <div>
@@ -112,7 +112,7 @@ export default function ContactPage() {
                 value={formData.phone}
                 onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                 className="w-full px-4 py-2 text-white rounded-lg focus:outline-none"
-                  style={{ border: '2px solid #C0C0C0', background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)' }}
+                  style={{ border: '2px solid #C0C0C0', background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)' }}
               />
             </div>
             <button
@@ -140,7 +140,7 @@ export default function ContactPage() {
                   <div
                     key={contact.id}
                     className="rounded-lg p-6"
-                    style={{ border: '1px solid #C0C0C0', background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)' }}
+                    style={{ border: '1px solid #C0C0C0', background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)' }}
                   >
                     <h3 className="text-xl font-bold mb-4 text-white">
                       {contact.department}
@@ -192,7 +192,7 @@ export default function ContactPage() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-lg p-6 flex items-center justify-center hover:shadow-lg transition-all"
-                    style={{ border: '1px solid #C0C0C0', background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)' }}
+                    style={{ border: '1px solid #C0C0C0', background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)' }}
                   >
                     {sponsor.logo_url ? (
                       <img

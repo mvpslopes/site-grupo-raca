@@ -111,7 +111,7 @@ export default function WeatherPage() {
               className="group rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
               style={{ 
                 border: '2px solid #C0C0C0',
-                background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)'
+                background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)'
               }}
             >
               {/* Header with gradient */}
@@ -184,7 +184,7 @@ export default function WeatherPage() {
       </div>
 
       {/* Info Section */}
-      <div className="mt-12 rounded-lg p-8" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '2px solid #C0C0C0' }}>
+      <div className="mt-12 rounded-lg p-8" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '2px solid #C0C0C0' }}>
         <div className="text-center">
           <h3 className="text-2xl font-bold mb-4 text-white">Sobre as Previsões</h3>
           <p className="text-white leading-relaxed max-w-2xl mx-auto">

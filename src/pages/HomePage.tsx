@@ -107,7 +107,7 @@ export default function HomePage() {
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <div className="rounded-2xl p-8 md:p-10 transition-all duration-300 relative overflow-hidden group" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '1px solid #C0C0C0' }}>
+          <div className="rounded-2xl p-8 md:p-10 transition-all duration-300 relative overflow-hidden group" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '1px solid #C0C0C0' }}>
             <div className="absolute top-0 right-0 w-20 h-20 border-t border-r transition-colors" style={{ borderColor: 'rgba(192, 192, 192, 0.6)' }}></div>
             <div className="relative z-10">
               <div className="flex items-center gap-3 mb-6">
@@ -123,7 +123,7 @@ export default function HomePage() {
             </div>
           </div>
           
-          <div className="rounded-2xl p-8 md:p-10 transition-all duration-300 relative overflow-hidden group" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '1px solid #C0C0C0' }}>
+          <div className="rounded-2xl p-8 md:p-10 transition-all duration-300 relative overflow-hidden group" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '1px solid #C0C0C0' }}>
             <div className="absolute top-0 right-0 w-20 h-20 border-t border-r transition-colors" style={{ borderColor: 'rgba(192, 192, 192, 0.6)' }}></div>
             <div className="relative z-10">
               <div className="flex items-center gap-3 mb-6">
@@ -180,7 +180,7 @@ export default function HomePage() {
             <div
               key={index}
               className="group rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
-              style={{ border: '2px solid #C0C0C0', background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)' }}
+              style={{ border: '2px solid #C0C0C0', background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)' }}
             >
               <div className="relative h-80 overflow-hidden">
                 <img
@@ -240,7 +240,7 @@ export default function HomePage() {
                 <div
                   key={event.id}
                   className="group rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 relative overflow-hidden"
-                  style={{ border: '1px solid #C0C0C0', background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', animationDelay: `${index * 100}ms` }}
+                  style={{ border: '1px solid #C0C0C0', background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', animationDelay: `${index * 100}ms` }}
                 >
                   <div className="absolute top-0 left-0 w-full h-1 transition-colors" style={{ background: 'linear-gradient(to right, #C0C0C0, #A8A8A8, #C0C0C0)' }}></div>
                   
@@ -276,7 +276,7 @@ export default function HomePage() {
               ))}
             </div>
           ) : (
-            <div className="rounded-xl p-12 text-center shadow-sm" style={{ background: 'linear-gradient(to bottom, #3a3a3a, #2a2a2a, #1a1a1a)', border: '1px solid #666666' }}>
+            <div className="rounded-xl p-12 text-center shadow-sm" style={{ background: 'linear-gradient(to bottom, #1a1a1a, #0f0f0f, #000000)', border: '1px solid #666666' }}>
               <p className="text-white text-lg">Nenhum evento próximo agendado</p>
             </div>
           )}
@@ -297,7 +297,7 @@ export default function HomePage() {
                 <div
                   key={event.id}
                   className="rounded-xl p-6 opacity-90 hover:opacity-100 transition-opacity duration-300"
-                  style={{ border: '1px solid #C0C0C0', background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)' }}
+                  style={{ border: '1px solid #C0C0C0', background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)' }}
                 >
                   <h4 className="text-xl font-bold mb-3 text-white">{event.title}</h4>
                   <p className="text-white mb-4 leading-relaxed">{event.description}</p>
@@ -317,7 +317,7 @@ export default function HomePage() {
               ))}
             </div>
           ) : (
-            <div className="rounded-xl p-12 text-center shadow-sm" style={{ background: 'linear-gradient(to bottom, #3a3a3a, #2a2a2a, #1a1a1a)', border: '1px solid #666666' }}>
+            <div className="rounded-xl p-12 text-center shadow-sm" style={{ background: 'linear-gradient(to bottom, #1a1a1a, #0f0f0f, #000000)', border: '1px solid #666666' }}>
               <p className="text-white text-lg">Nenhum evento realizado registrado</p>
             </div>
           )}

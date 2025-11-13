@@ -48,10 +48,10 @@ export default function AdvisorsPage() {
         </p>
       </div>
 
-      <div className="mb-12 rounded-lg p-8" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '2px solid #C0C0C0' }}>
+      <div className="mb-12 rounded-lg p-8" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '2px solid #C0C0C0' }}>
         <h2 className="text-2xl font-bold mb-6 text-white">Assessores Recomendados</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '1px solid #C0C0C0' }}>
+          <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '1px solid #C0C0C0' }}>
             <h3 className="text-xl font-bold mb-2 text-white">Erick</h3>
             <p className="text-white mb-4">Assessoria Técnica Especializada</p>
             <div className="space-y-2">
@@ -72,7 +72,7 @@ export default function AdvisorsPage() {
             </div>
           </div>
 
-          <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '1px solid #C0C0C0' }}>
+          <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '1px solid #C0C0C0' }}>
             <h3 className="text-xl font-bold mb-2 text-white">Lagartixa</h3>
             <p className="text-white mb-4">Assessoria Técnica Especializada</p>
             <div className="space-y-2">
@@ -93,7 +93,7 @@ export default function AdvisorsPage() {
             </div>
           </div>
 
-          <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '1px solid #C0C0C0' }}>
+          <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '1px solid #C0C0C0' }}>
             <h3 className="text-xl font-bold mb-2 text-white">Gregório</h3>
             <p className="text-white mb-4">Assessoria Técnica Especializada</p>
             <div className="space-y-2">
@@ -114,7 +114,7 @@ export default function AdvisorsPage() {
             </div>
           </div>
 
-          <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '1px solid #C0C0C0' }}>
+          <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '1px solid #C0C0C0' }}>
             <h3 className="text-xl font-bold mb-2 text-white">Carlos Eduardo</h3>
             <p className="text-white mb-4">Assessoria Técnica Especializada</p>
             <div className="space-y-2">
@@ -149,7 +149,7 @@ export default function AdvisorsPage() {
               <div
                 key={advisor.id}
                 className="rounded-lg p-6 hover:shadow-lg transition-all"
-                style={{ border: '1px solid #C0C0C0', background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)' }}
+                style={{ border: '1px solid #C0C0C0', background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)' }}
               >
                 <h3 className="text-xl font-bold mb-2 text-white">{advisor.name}</h3>
                 {advisor.specialty && (

@@ -4,7 +4,7 @@ export default function HistoryPage() {
       <h1 className="text-4xl font-bold mb-12 text-white">Nossa História</h1>
 
       <div className="space-y-8">
-        <section className="rounded-lg p-8" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '2px solid #C0C0C0' }}>
+        <section className="rounded-lg p-8" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '2px solid #C0C0C0' }}>
           <h2 className="text-2xl font-bold mb-4 text-white">A Origem</h2>
           <p className="text-white text-lg leading-relaxed mb-4">
             O Grupo Raça nasceu da paixão genuína por cavalos e do sonho de
@@ -23,7 +23,7 @@ export default function HistoryPage() {
           </p>
         </section>
 
-        <section className="rounded-lg p-8" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '2px solid #C0C0C0' }}>
+        <section className="rounded-lg p-8" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '2px solid #C0C0C0' }}>
           <h2 className="text-2xl font-bold mb-4 text-white">Crescimento e Expansão</h2>
           <p className="text-white text-lg leading-relaxed mb-4">
             Com o passar dos anos, o Grupo Raça expandiu suas operações para
@@ -42,7 +42,7 @@ export default function HistoryPage() {
           </p>
         </section>
 
-        <section className="rounded-lg p-8" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '2px solid #C0C0C0' }}>
+        <section className="rounded-lg p-8" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '2px solid #C0C0C0' }}>
           <h2 className="text-2xl font-bold mb-4 text-white">Valores e Compromissos</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="border-l-4 border-white pl-4">
@@ -78,7 +78,7 @@ export default function HistoryPage() {
           </div>
         </section>
 
-        <section className="rounded-lg p-8" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '2px solid #C0C0C0' }}>
+        <section className="rounded-lg p-8" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '2px solid #C0C0C0' }}>
           <h2 className="text-2xl font-bold mb-4 text-white">O Futuro</h2>
           <p className="text-white text-lg leading-relaxed">
             Olhamos para o futuro com entusiasmo e determinação. Nosso objetivo

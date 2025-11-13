@@ -88,7 +88,7 @@ export default function ShoppingPage() {
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="w-full pl-12 pr-12 py-4 rounded-lg text-white"
-              style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '2px solid #C0C0C0' }}
+              style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '2px solid #C0C0C0' }}
             />
             {searchTerm && (
               <button
@@ -104,19 +104,19 @@ export default function ShoppingPage() {
 
       {/* Info Section */}
       <div className="mb-12 grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '1px solid #C0C0C0' }}>
+        <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '1px solid #C0C0C0' }}>
           <h3 className="text-xl font-bold mb-3 text-white">Garantia de Qualidade</h3>
           <p className="text-white text-sm leading-relaxed">
             Todos os animais passam por rigorosa avaliação genética e documentação completa.
           </p>
         </div>
-        <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '1px solid #C0C0C0' }}>
+        <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '1px solid #C0C0C0' }}>
           <h3 className="text-xl font-bold mb-3 text-white">Suporte Técnico</h3>
           <p className="text-white text-sm leading-relaxed">
             Nossa equipe de especialistas está disponível para orientar em todo o processo.
           </p>
         </div>
-        <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '1px solid #C0C0C0' }}>
+        <div className="rounded-lg p-6" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '1px solid #C0C0C0' }}>
           <h3 className="text-xl font-bold mb-3 text-white">Documentação</h3>
           <p className="text-white text-sm leading-relaxed">
             Pedigree completo e certificados de origem para todos os animais disponíveis.
@@ -154,7 +154,7 @@ export default function ShoppingPage() {
             <div
               key={index}
               className="group rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
-              style={{ border: '2px solid #C0C0C0', background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)' }}
+              style={{ border: '2px solid #C0C0C0', background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)' }}
             >
               <div className="relative h-64 overflow-hidden">
                 <img
@@ -223,7 +223,7 @@ export default function ShoppingPage() {
             <div
               key={horse.id}
               className="group rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
-              style={{ border: '2px solid #C0C0C0', background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)' }}
+              style={{ border: '2px solid #C0C0C0', background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)' }}
             >
               {horse.image_url ? (
                 <div className="relative h-64 overflow-hidden">
@@ -235,7 +235,7 @@ export default function ShoppingPage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 </div>
               ) : (
-                <div className="h-64 flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)' }}>
+                <div className="h-64 flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)' }}>
                   <span className="text-white text-lg">Sem imagem</span>
                 </div>
               )}
@@ -277,7 +277,7 @@ export default function ShoppingPage() {
           ))}
         </div>
       ) : (
-        <div className="rounded-lg p-12 text-center" style={{ background: 'linear-gradient(135deg, #4a4a4a 0%, #3a3a3a 50%, #2a2a2a 100%)', border: '1px solid #C0C0C0' }}>
+        <div className="rounded-lg p-12 text-center" style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 50%, #000000 100%)', border: '1px solid #C0C0C0' }}>
           <p className="text-white text-lg mb-4">
             {searchTerm 
               ? 'Nenhum animal encontrado com os critérios de busca.' 
