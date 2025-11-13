@@ -3,7 +3,21 @@ import { createClient } from '@supabase/supabase-js';
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
-export const supabase = createClient(supabaseUrl, supabaseAnonKey);
+if (!supabaseUrl || !supabaseAnonKey) {
+  console.error('❌ Variáveis de ambiente do Supabase não configuradas!');
+  console.error('Configure as seguintes variáveis no Vercel:');
+  console.error('- VITE_SUPABASE_URL');
+  console.error('- VITE_SUPABASE_ANON_KEY');
+}
+
+// Usar valores padrão apenas para desenvolvimento local
+const defaultUrl = 'https://placeholder.supabase.co';
+const defaultKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBsYWNlaG9sZGVyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NDUxOTIwMDAsImV4cCI6MTk2MDc2ODAwMH0.placeholder';
+
+export const supabase = createClient(
+  supabaseUrl || defaultUrl,
+  supabaseAnonKey || defaultKey
+);
 
 export interface Event {
   id: string;
